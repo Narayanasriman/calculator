@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:  hsl(0, 5%, 17%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 370px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+}
+
+.converter {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.converter h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input-group input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-right: 30px; /* Make space for the delete button inside the input */
+}
+
+.input-group .delete-btn {
+    position: absolute;
+    right: 73px; /* Adjust according to the button size */
+    /* background-color: #ff4d4d; */
+    border: none;
+    color: rgb(32, 30, 30);
+    font-size: 14px;
+    cursor: pointer;
+    
+    padding: 5px;
+    width:25px;
+    font-weight: bold;
+    
+}
+
+.input-group .delete-btn:hover {
+    background-color: rgb(145, 136, 136);
+}
+
+.input-group button {
+    padding: 10px;
+    width: 60px;
+    background-color: hsl(210, 12%, 97%);
+    
+    color: rgb(47, 44, 44);
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    
+}
+
+.input-group button:hover {
+    background-color:rgb(145, 136, 136);
+}
+
+.converter p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}

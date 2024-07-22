@@ -1,0 +1,43 @@
+body{
+    margin:15px;
+    
+    background-color: hsl(0, 5%, 17%);
+    
+
+}
+button{
+    width:200px;
+    height:50px;
+    padding:10px;
+    font-weight: bold;
+    font-size:20px;
+    margin:20px;
+    border-radius:10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #9a9494;  
+}
+#age{
+    margin:20px;
+    
+} 
+#cent{
+    margin:20px;
+    position:absolute;
+    top:85px;
+    left:17px;
+   
+}
+#calc{
+    margin:20px;
+}
+#age{
+    position:absolute;
+    top:155px;
+    left:16px;
+} 
+
+

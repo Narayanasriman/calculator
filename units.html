@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Converter Calculator</title>
+    <link rel="stylesheet" href="centi.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>MULTI UNIT CONVERTOR</h1>
+        <div class="converter">
+            <h2>Percentage to Decimal</h2>
+            <div class="input-group">
+                <input type="number" id="percentageInput" placeholder="Enter percentage">
+                <button class="delete-btn" onclick="clearInput('percentageInput', 'percentageOutput')">X</button>
+                <button onclick="convertPercentage()">Convert</button>
+            </div>
+            <p id="percentageOutput"></p>
+        </div>
+        <div class="converter">
+            <h2>Decimal to Percentage</h2>
+            <div class="input-group">
+                <input type="number" id="decimalInput" placeholder="Enter decimal">
+                <button class="delete-btn" onclick="clearInput('decimalInput', 'decimalOutput')">X</button>
+                <button onclick="convertDecimal()" class="convert">Convert</button>
+            </div>
+            <p id="decimalOutput"></p>
+        </div> 
+        <div class="converter">
+            <h2>Metres to Centimeters</h2>
+            <div class="input-group">
+                <input type="number" id="metersInput" placeholder="Enter meters">
+                <button class="delete-btn" onclick="clearInput('metersInput', 'metersOutput')">X</button>
+                <button onclick="convertMeters()">Convert</button>
+            </div>
+            <p id="metersOutput"></p>
+        </div>
+        <div class="converter">
+            <h2>Centimeters to Metres</h2>
+            <div class="input-group">
+                <input type="number" id="centimetersInput" placeholder="Enter centimeters">
+                <button class="delete-btn" onclick="clearInput('centimetersInput', 'centimetersOutput')">X</button>
+                <button onclick="convertCentimeters()">Convert</button>
+            </div>
+            <p id="centimetersOutput"></p>
+        </div>
+        <div class="converter">
+            <h2>Inches to Feet</h2>
+            <div class="input-group">
+                <input type="number" id="inchesInput" placeholder="Enter inches">
+                <button class="delete-btn" onclick="clearInput('inchesInput', 'inchesOutput')">X</button>
+                <button onclick="convertInches()">Convert</button>
+            </div>
+            <p id="inchesOutput"></p>
+        </div>
+    </div>
+    <script src="centi.js"></script>
+</body>
+</html>
